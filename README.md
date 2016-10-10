@@ -70,7 +70,7 @@ Xcode菜单 -> File -> New -> Target.. -> 选择Today Extension
 
 # 来一波运行效果图
 
-![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/TDtouch.jpg)
+![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/TDtouchs.jpg)
 
 ![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/todays1.jpg)
 
