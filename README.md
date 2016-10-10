@@ -9,7 +9,7 @@ iOS开发之widget实现 .  iOS extension的出现，方便了用户查看应用
  
  打开我们项目的plist文件，添加如下项（选择框中并没有，需要我们手工敲上去）
   
-![image](https://github.com/niugaohang/HealthModify/blob/master/HealthSportsDemo/HealthSport01.jpeg)
+![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/shezhianniu.png)
 
 UIApplicationShortcutItems：数组中的元素就是我们的那些快捷选项标签。
 
@@ -56,7 +56,7 @@ Xcode菜单 -> File -> New -> Target.. -> 选择Today Extension
 删掉NSExtensionMainStoryboard字段
 添加NSExtensionPrincipalClass字段,设置value为TodayViewController,当然也可以设置其他的ViewController
 
-![image](https://github.com/niugaohang/HealthModify/blob/master/HealthSportsDemo/HealthSport01.jpeg)
+![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/shezhiwidget.png)
 
 3.设置Extension和Containing App、host app之间的关系、Containing App与扩展共享数据、开启App Groups等等知识点 就可以自己个Google了 网上的资料中写得很详细！
 
@@ -64,17 +64,17 @@ Xcode菜单 -> File -> New -> Target.. -> 选择Today Extension
 - (void)openURL:(NSURL *)URL completionHandler:(void (^)(BOOL success))completionHandler;
 
 需要设置 
-![image](https://github.com/niugaohang/HealthModify/blob/master/HealthSportsDemo/HealthSport01.jpeg)
+![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/dakzhuapp.png)
 
 其他的需要设置的在demo只有注释。
 
 # 来一波运行效果图
 
-![image](https://github.com/niugaohang/HealthModify/blob/master/HealthSportsDemo/HealthSport01.jpeg)
+![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/TDtouch.png)
 
-![image](https://github.com/niugaohang/HealthModify/blob/master/HealthSportsDemo/HealthSport01.jpeg)
+![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/todays1.png)
 
-![image](https://github.com/niugaohang/HealthModify/blob/master/HealthSportsDemo/HealthSport01.jpeg)
+![image](https://github.com/niugaohang/TDTouchDemo/blob/master/TDTouchDemo/todays2.png)
 
 
 
