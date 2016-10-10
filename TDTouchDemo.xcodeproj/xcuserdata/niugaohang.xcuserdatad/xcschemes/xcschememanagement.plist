@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TDTouchDemoToday.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>4F9BA9C21DAB62D500F91A8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F9BA9E01DAB739F00F91A8C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

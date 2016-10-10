@@ -14,6 +14,16 @@
 		4F9BA9BA1DAB62D400F91A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9B91DAB62D400F91A8C /* Assets.xcassets */; };
 		4F9BA9BD1DAB62D400F91A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9BB1DAB62D400F91A8C /* LaunchScreen.storyboard */; };
 		4F9BA9C81DAB62D500F91A8C /* TDTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BA9C71DAB62D500F91A8C /* TDTouchDemoUITests.m */; };
+		4F9BA9E41DAB739F00F91A8C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9BA9E31DAB739F00F91A8C /* NotificationCenter.framework */; };
+		4F9BA9E81DAB739F00F91A8C /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BA9E71DAB739F00F91A8C /* TodayViewController.m */; };
+		4F9BA9EB1DAB739F00F91A8C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9E91DAB739F00F91A8C /* MainInterface.storyboard */; };
+		4F9BA9EF1DAB739F00F91A8C /* TDTouchDemoToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F9BA9E11DAB739F00F91A8C /* TDTouchDemoToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F9BA9F81DAB901100F91A8C /* shezhianniu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9F71DAB901100F91A8C /* shezhianniu.png */; };
+		4F9BA9FC1DAB909400F91A8C /* TDtouchs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9F91DAB909400F91A8C /* TDtouchs.jpg */; };
+		4F9BA9FD1DAB909400F91A8C /* todays1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9FA1DAB909400F91A8C /* todays1.jpg */; };
+		4F9BA9FE1DAB909400F91A8C /* todays2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9FB1DAB909400F91A8C /* todays2.jpg */; };
+		4F9BAA001DAB93BF00F91A8C /* shezhiwidget.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BA9FF1DAB93BF00F91A8C /* shezhiwidget.png */; };
+		4F9BAA021DAB965800F91A8C /* dakzhuapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BAA011DAB965800F91A8C /* dakzhuapp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +34,28 @@
 			remoteGlobalIDString = 4F9BA9A91DAB62D400F91A8C;
 			remoteInfo = TDTouchDemo;
 		};
+		4F9BA9ED1DAB739F00F91A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9BA9A21DAB62D400F91A8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9BA9E01DAB739F00F91A8C;
+			remoteInfo = TDTouchDemoToday;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F9BA9F31DAB739F00F91A8C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F9BA9EF1DAB739F00F91A8C /* TDTouchDemoToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4F9BA9AA1DAB62D400F91A8C /* TDTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +71,20 @@
 		4F9BA9C31DAB62D500F91A8C /* TDTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9BA9C71DAB62D500F91A8C /* TDTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTouchDemoUITests.m; sourceTree = "<group>"; };
 		4F9BA9C91DAB62D500F91A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9BA9E11DAB739F00F91A8C /* TDTouchDemoToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TDTouchDemoToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9BA9E31DAB739F00F91A8C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4F9BA9E61DAB739F00F91A8C /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		4F9BA9E71DAB739F00F91A8C /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		4F9BA9EA1DAB739F00F91A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4F9BA9EC1DAB739F00F91A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9BA9F41DAB792400F91A8C /* TDTouchDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TDTouchDemo.entitlements; sourceTree = "<group>"; };
+		4F9BA9F51DAB793D00F91A8C /* TDTouchDemoToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TDTouchDemoToday.entitlements; sourceTree = "<group>"; };
+		4F9BA9F71DAB901100F91A8C /* shezhianniu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shezhianniu.png; sourceTree = "<group>"; };
+		4F9BA9F91DAB909400F91A8C /* TDtouchs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TDtouchs.jpg; sourceTree = "<group>"; };
+		4F9BA9FA1DAB909400F91A8C /* todays1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = todays1.jpg; sourceTree = "<group>"; };
+		4F9BA9FB1DAB909400F91A8C /* todays2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = todays2.jpg; sourceTree = "<group>"; };
+		4F9BA9FF1DAB93BF00F91A8C /* shezhiwidget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shezhiwidget.png; sourceTree = "<group>"; };
+		4F9BAA011DAB965800F91A8C /* dakzhuapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dakzhuapp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +102,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F9BA9DE1DAB739F00F91A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9BA9E41DAB739F00F91A8C /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +118,8 @@
 			children = (
 				4F9BA9AC1DAB62D400F91A8C /* TDTouchDemo */,
 				4F9BA9C61DAB62D500F91A8C /* TDTouchDemoUITests */,
+				4F9BA9E51DAB739F00F91A8C /* TDTouchDemoToday */,
+				4F9BA9E21DAB739F00F91A8C /* Frameworks */,
 				4F9BA9AB1DAB62D400F91A8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +129,7 @@
 			children = (
 				4F9BA9AA1DAB62D400F91A8C /* TDTouchDemo.app */,
 				4F9BA9C31DAB62D500F91A8C /* TDTouchDemoUITests.xctest */,
+				4F9BA9E11DAB739F00F91A8C /* TDTouchDemoToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +137,12 @@
 		4F9BA9AC1DAB62D400F91A8C /* TDTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4F9BA9F41DAB792400F91A8C /* TDTouchDemo.entitlements */,
 				4F9BA9B01DAB62D400F91A8C /* AppDelegate.h */,
 				4F9BA9B11DAB62D400F91A8C /* AppDelegate.m */,
 				4F9BA9B31DAB62D400F91A8C /* ViewController.h */,
 				4F9BA9B41DAB62D400F91A8C /* ViewController.m */,
+				4F9BA9F61DAB900300F91A8C /* img */,
 				4F9BA9B61DAB62D400F91A8C /* Main.storyboard */,
 				4F9BA9B91DAB62D400F91A8C /* Assets.xcassets */,
 				4F9BA9BB1DAB62D400F91A8C /* LaunchScreen.storyboard */,
@@ -111,6 +169,39 @@
 			path = TDTouchDemoUITests;
 			sourceTree = "<group>";
 		};
+		4F9BA9E21DAB739F00F91A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9BA9E31DAB739F00F91A8C /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F9BA9E51DAB739F00F91A8C /* TDTouchDemoToday */ = {
+			isa = PBXGroup;
+			children = (
+				4F9BA9F51DAB793D00F91A8C /* TDTouchDemoToday.entitlements */,
+				4F9BA9E61DAB739F00F91A8C /* TodayViewController.h */,
+				4F9BA9E71DAB739F00F91A8C /* TodayViewController.m */,
+				4F9BA9E91DAB739F00F91A8C /* MainInterface.storyboard */,
+				4F9BA9EC1DAB739F00F91A8C /* Info.plist */,
+			);
+			path = TDTouchDemoToday;
+			sourceTree = "<group>";
+		};
+		4F9BA9F61DAB900300F91A8C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				4F9BA9FF1DAB93BF00F91A8C /* shezhiwidget.png */,
+				4F9BA9F91DAB909400F91A8C /* TDtouchs.jpg */,
+				4F9BA9FA1DAB909400F91A8C /* todays1.jpg */,
+				4F9BA9FB1DAB909400F91A8C /* todays2.jpg */,
+				4F9BA9F71DAB901100F91A8C /* shezhianniu.png */,
+				4F9BAA011DAB965800F91A8C /* dakzhuapp.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,10 +212,12 @@
 				4F9BA9A61DAB62D400F91A8C /* Sources */,
 				4F9BA9A71DAB62D400F91A8C /* Frameworks */,
 				4F9BA9A81DAB62D400F91A8C /* Resources */,
+				4F9BA9F31DAB739F00F91A8C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4F9BA9EE1DAB739F00F91A8C /* PBXTargetDependency */,
 			);
 			name = TDTouchDemo;
 			productName = TDTouchDemo;
@@ -149,6 +242,23 @@
 			productReference = 4F9BA9C31DAB62D500F91A8C /* TDTouchDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		4F9BA9E01DAB739F00F91A8C /* TDTouchDemoToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9BA9F01DAB739F00F91A8C /* Build configuration list for PBXNativeTarget "TDTouchDemoToday" */;
+			buildPhases = (
+				4F9BA9DD1DAB739F00F91A8C /* Sources */,
+				4F9BA9DE1DAB739F00F91A8C /* Frameworks */,
+				4F9BA9DF1DAB739F00F91A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDTouchDemoToday;
+			productName = TDTouchDemoToday;
+			productReference = 4F9BA9E11DAB739F00F91A8C /* TDTouchDemoToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,12 +270,28 @@
 				TargetAttributes = {
 					4F9BA9A91DAB62D400F91A8C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UWQPN2RE82;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4F9BA9C21DAB62D500F91A8C = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4F9BA9A91DAB62D400F91A8C;
+					};
+					4F9BA9E01DAB739F00F91A8C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UWQPN2RE82;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -184,6 +310,7 @@
 			targets = (
 				4F9BA9A91DAB62D400F91A8C /* TDTouchDemo */,
 				4F9BA9C21DAB62D500F91A8C /* TDTouchDemoUITests */,
+				4F9BA9E01DAB739F00F91A8C /* TDTouchDemoToday */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +320,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9BA9FC1DAB909400F91A8C /* TDtouchs.jpg in Resources */,
+				4F9BA9FD1DAB909400F91A8C /* todays1.jpg in Resources */,
+				4F9BAA021DAB965800F91A8C /* dakzhuapp.png in Resources */,
+				4F9BAA001DAB93BF00F91A8C /* shezhiwidget.png in Resources */,
+				4F9BA9F81DAB901100F91A8C /* shezhianniu.png in Resources */,
 				4F9BA9BD1DAB62D400F91A8C /* LaunchScreen.storyboard in Resources */,
+				4F9BA9FE1DAB909400F91A8C /* todays2.jpg in Resources */,
 				4F9BA9BA1DAB62D400F91A8C /* Assets.xcassets in Resources */,
 				4F9BA9B81DAB62D400F91A8C /* Main.storyboard in Resources */,
 			);
@@ -203,6 +336,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9BA9DF1DAB739F00F91A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9BA9EB1DAB739F00F91A8C /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +368,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F9BA9DD1DAB739F00F91A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9BA9E81DAB739F00F91A8C /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -234,6 +383,11 @@
 			isa = PBXTargetDependency;
 			target = 4F9BA9A91DAB62D400F91A8C /* TDTouchDemo */;
 			targetProxy = 4F9BA9C41DAB62D500F91A8C /* PBXContainerItemProxy */;
+		};
+		4F9BA9EE1DAB739F00F91A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9BA9E01DAB739F00F91A8C /* TDTouchDemoToday */;
+			targetProxy = 4F9BA9ED1DAB739F00F91A8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -252,6 +406,14 @@
 				4F9BA9BC1DAB62D400F91A8C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4F9BA9E91DAB739F00F91A8C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9BA9EA1DAB739F00F91A8C /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,9 +513,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TDTouchDemo/TDTouchDemo.entitlements;
+				DEVELOPMENT_TEAM = UWQPN2RE82;
 				INFOPLIST_FILE = TDTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TDTouchDemo.TDTouchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TDTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -362,9 +526,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TDTouchDemo/TDTouchDemo.entitlements;
+				DEVELOPMENT_TEAM = UWQPN2RE82;
 				INFOPLIST_FILE = TDTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TDTouchDemo.TDTouchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TDTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -388,6 +554,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.TDTouchDemo.TDTouchDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = TDTouchDemo;
+			};
+			name = Release;
+		};
+		4F9BA9F11DAB739F00F91A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TDTouchDemoToday/TDTouchDemoToday.entitlements;
+				DEVELOPMENT_TEAM = UWQPN2RE82;
+				INFOPLIST_FILE = TDTouchDemoToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TDTouchDemo.TDTouchDemoToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F9BA9F21DAB739F00F91A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TDTouchDemoToday/TDTouchDemoToday.entitlements;
+				DEVELOPMENT_TEAM = UWQPN2RE82;
+				INFOPLIST_FILE = TDTouchDemoToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TDTouchDemo.TDTouchDemoToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -416,6 +608,14 @@
 			buildConfigurations = (
 				4F9BA9D01DAB62D500F91A8C /* Debug */,
 				4F9BA9D11DAB62D500F91A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F9BA9F01DAB739F00F91A8C /* Build configuration list for PBXNativeTarget "TDTouchDemoToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9BA9F11DAB739F00F91A8C /* Debug */,
+				4F9BA9F21DAB739F00F91A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

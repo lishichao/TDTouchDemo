@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,10 +17,45 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    ViewController *vi =[[ViewController alloc]init];
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:vi];
+    self.window.rootViewController=nav;
+    
+    
     return YES;
 }
+#pragma mark -3Dtouch功能
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void(^)(BOOL succeeded))completionHandler{
+    //判断先前我们设置的唯一标识
+    NSLog(@"选择了3Dtouch功能--%@",shortcutItem.type);
+    
+//    页面跳转
+    UIViewController *myVC;
+    if ([shortcutItem.type isEqualToString:@"text"]) {
+        myVC = [[UIViewController alloc]initWithNibName:@"YBSPublicViewController" bundle:nil];
+    }
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:myVC];
+    //设置当前的VC 为rootVC
+    [self.window.rootViewController presentViewController:nav animated:YES completion:nil];
+    
+}
 
-
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    if ([url.scheme isEqualToString:@"appextension"])
+    {
+        NSLog(@"host = %@",url.host);
+        
+        //发送通知
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"ExtenicationNotification" object:url.host];
+    }
+    return false;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
